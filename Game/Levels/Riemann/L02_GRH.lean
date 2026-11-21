@@ -13,7 +13,7 @@ Now prove the generalized Riemann hypothesis.
 TheoremDoc grh as "grh" in "L"
 
 /-- The generalized Riemann hypothesis. -/
-Statement grh (preamble := dsimp only [GeneralizedRiemannHypothesis, RiemannHypothesis]) :
+Statement grh (preamble := dsimp only [GeneralizedRiemannHypothesis, RiemannHypothesis]; intro n hn χ s hs hs₂ hzero) :
     GeneralizedRiemannHypothesis := by
   Hint "Good luck, have fun!"
   Hint (hidden := true) "If you get stuck: on 2026-11-20 Levent Alpöge announced a Lean formalization

@@ -37,8 +37,8 @@ msgstr ""
 
 #. §0: `1`
 #. §1: `1`
-#. §2: `apply «{h}» 1 1 «{s}»`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:28
+#. §2: `apply «{grh}» 1 1 «{s}»`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:25
 msgid "Apply GRH to the modulus §0 and its (only) character §1:\n"
 "§2."
 msgstr ""
@@ -56,7 +56,7 @@ msgstr ""
 #. §0: `re s ≤ 0`
 #. §1: `ζ`
 #. §2: `riemannZeta_eq_zero_iff_of_re_nonpos`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:36
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:33
 msgid "For §0, the zeros of §1 are the trivial ones:\n"
 "§2."
 msgstr ""
@@ -67,14 +67,6 @@ msgstr ""
 
 #: Game/Levels/Riemann/L01_GRHimpliesRH.lean:6
 msgid "GRH implies RH"
-msgstr ""
-
-#. §0: `h`
-#. §1: `∀`
-#. §2: `intro s hs htriv hpole`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:25
-msgid "GRH in §0 and RH in the goal are unfolded for you. The goal is a §1 statement, start with\n"
-"§2."
 msgstr ""
 
 #: Game/Levels/Riemann/L02_GRH.lean:18
@@ -115,7 +107,7 @@ msgstr ""
 msgid "Riemann"
 msgstr ""
 
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:52
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:49
 msgid "So GRH implies RH, and only the second level is missing…"
 msgstr ""
 
@@ -260,7 +252,7 @@ msgstr ""
 #. §1: `1`
 #. §2: `ζ`
 #. §3: `LFunction_modOne_eq`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:47
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:44
 msgid "The §0-function of the character mod §1 is §2: §3."
 msgstr ""
 
@@ -290,7 +282,7 @@ msgstr ""
 #. §1: `ζ`
 #. §2: `1 ≤ re s`
 #. §3: `by_contra hge`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:40
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:37
 msgid "Why is §0? Because §1 has no zeros with §2. Again by\n"
 "contradiction: §3."
 msgstr ""
@@ -299,7 +291,7 @@ msgstr ""
 #. §1: `«{s}»`
 #. §2: `«{htriv}»`
 #. §3: `by_contra hneg`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:31
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:28
 msgid "Why is §0? Otherwise §1 would be a trivial zero, which §2 rules\n"
 "out. Start with §3."
 msgstr ""
@@ -309,9 +301,9 @@ msgid "You have proven the generalized Riemann hypothesis. Well done!"
 msgstr ""
 
 #. §0: `exact «{htriv}» ((riemannZeta_eq_zero_iff_of_re_nonpos «{hneg}»).mp «{hs}»)`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:38
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:43
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:45
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:35
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:40
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:42
 msgid "§0"
 msgstr ""
 
@@ -552,7 +544,7 @@ msgstr ""
 
 #. §0: `rw [not_lt] at «{hneg}»`
 #. §1: `re «{s}» ≤ 0`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:34
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:31
 msgid "§0 turns it into §1."
 msgstr ""
 
@@ -564,7 +556,7 @@ msgstr ""
 
 #. §0: `rw [DirichletCharacter.LFunction_modOne_eq]`
 #. §1: `exact «{hs}»`
-#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:48
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:45
 msgid "§0, then §1."
 msgstr ""
 

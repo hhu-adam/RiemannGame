@@ -20,14 +20,11 @@ TheoremDoc grh_imp_rh as "grh_imp_rh" in "L"
 
 /-- The generalized Riemann hypothesis implies the Riemann hypothesis. -/
 Statement grh_imp_rh
-    (preamble := dsimp only [GeneralizedRiemannHypothesis, RiemannHypothesis] at *)
-    (h : GeneralizedRiemannHypothesis) : RiemannHypothesis := by
-  Hint "GRH in `h` and RH in the goal are unfolded for you. The goal is a `∀` statement, start with
-  `intro s hs htriv hpole`."
-  intro s hs htriv hpole
+    (preamble := dsimp only [GeneralizedRiemannHypothesis, RiemannHypothesis] at *; intro s hs htriv hpole)
+    (grh : GeneralizedRiemannHypothesis) : RiemannHypothesis := by
   Hint (hidden := true) "Apply GRH to the modulus `1` and its (only) character `1`:
-  `apply {h} 1 1 {s}`."
-  apply h 1 1 s
+  `apply {grh} 1 1 {s}`."
+  apply grh 1 1 s
   · Hint "Why is `0 < re {s}`? Otherwise `{s}` would be a trivial zero, which `{htriv}` rules
     out. Start with `by_contra hneg`."
     by_contra hneg
