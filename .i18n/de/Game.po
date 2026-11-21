@@ -1,0 +1,630 @@
+msgid ""
+msgstr "Project-Id-Version: Game v4.36.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-21\n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"Language: de\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: ."
+
+#. §0: `N`
+#. §1: `ZMod N`
+#: Game/Doc.lean:88
+msgid "A Dirichlet character of modulus §0: a multiplicative character of §1.\n"
+"[[mathlib_doc]]"
+msgstr "Ein Dirichlet-Charakter zum Modul §0: ein multiplikativer Charakter von §1.\n"
+"[[mathlib_doc]]"
+
+#. §0: `RiemannHypothesis`
+#. §1: `Mathlib/NumberTheory/LSeries/RiemannZeta.lean`
+#: Game.lean:23
+msgid "A small game about the Riemann hypothesis, built on Mathlib.\n"
+"\n"
+"* Mathlib's §0: §1\n"
+"* Mirror of the announced proof: [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)\n"
+"\n"
+"The game is written by Claude, it does not use any of the announced\n"
+"proof. It is meant as a small test for the new user interface. Hope you enjoy.\n"
+"\n"
+"by Jon Eugster"
+msgstr "Ein kleines Spiel zur Riemannschen Vermutung, aufgebaut auf Mathlib.\n"
+"\n"
+"* §0 in Mathlib: §1\n"
+"* Spiegel des angekündigten Beweises: [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)\n"
+"\n"
+"Das Spiel wurde von Claude geschrieben und verwendet nichts vom angekündigten\n"
+"Beweis. Es ist als kleiner Test für die neue Benutzeroberfläche gedacht. Viel Spaß!\n"
+"\n"
+"von Jon Eugster"
+
+#: Game.lean:3
+msgid "Alpöge's Theorem"
+msgstr "Satz von Alpöge"
+
+#. §0: `1`
+#. §1: `1`
+#. §2: `apply «{h}» 1 1 «{s}»`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:28
+msgid "Apply GRH to the modulus §0 and its (only) character §1:\n"
+"§2."
+msgstr "Wende GRH auf den Modul §0 und seinen (einzigen) Charakter §1 an:\n"
+"§2."
+
+#: Game/Levels/Riemann/L02_GRH.lean:24
+msgid "Congratulations, you have proven the generalized Riemann hypothesis!"
+msgstr "Herzlichen Glückwunsch, du hast die verallgemeinerte Riemannsche Vermutung bewiesen!"
+
+#. §0: `re s ≤ 0`
+#. §1: `ζ`
+#: Game/Doc.lean:118
+msgid "For §0, the zeros of §1 are exactly the trivial ones."
+msgstr "Für §0 sind die Nullstellen von §1 genau die trivialen."
+
+#. §0: `re s ≤ 0`
+#. §1: `ζ`
+#. §2: `riemannZeta_eq_zero_iff_of_re_nonpos`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:36
+msgid "For §0, the zeros of §1 are the trivial ones:\n"
+"§2."
+msgstr "Für §0 sind die Nullstellen von §1 die trivialen:\n"
+"§2."
+
+#: Game/Levels/Riemann/L02_GRH.lean:6
+msgid "GRH"
+msgstr "GRH"
+
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:6
+msgid "GRH implies RH"
+msgstr "GRH impliziert RH"
+
+#. §0: `h`
+#. §1: `∀`
+#. §2: `intro s hs htriv hpole`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:25
+msgid "GRH in §0 and RH in the goal are unfolded for you. The goal is a §1 statement, start with\n"
+"§2."
+msgstr "GRH in §0 und RH im Beweisziel sind schon für dich ausgeschrieben. Das Ziel ist eine §1-Aussage, beginne mit\n"
+"§2."
+
+#: Game/Levels/Riemann/L02_GRH.lean:18
+msgid "Good luck, have fun!"
+msgstr "Viel Glück und viel Spaß!"
+
+#. §0: `L(χ, s)`
+#. §1: `χ`
+#: Game/Doc.lean:144
+msgid "How §0 changes when §1 is lifted to a larger modulus."
+msgstr "Wie sich §0 ändert, wenn §1 auf einen größeren Modul gehoben wird."
+
+#. §0: `L`
+#: Game/Levels/Riemann/L02_GRH.lean:19
+msgid "If you get stuck: on 2026-11-20 Levent Alpöge announced a Lean formalization\n"
+"of RH and of GRH for Dirichlet §0-functions. See for example the mirror at\n"
+"[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)."
+msgstr "Falls du nicht weiterkommst: Am 20.11.2026 hat Levent Alpöge eine Lean-Formalisierung\n"
+"von RH und von GRH für Dirichletsche §0-Funktionen angekündigt. Siehe zum Beispiel den Spiegel unter\n"
+"[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)."
+
+#. §0: `ζ`
+#. §1: `-2, -4, …`
+#. §2: `1`
+#. §3: `1/2`
+#: Game/Doc.lean:85
+msgid "Mathlib's statement of the Riemann hypothesis: every zero of §0, except the trivial\n"
+"zeros §1 (and the junk value at §2), has real part §3."
+msgstr "Die Riemannsche Vermutung, wie Mathlib sie formuliert: Jede Nullstelle von §0, außer den trivialen\n"
+"Nullstellen §1 (und dem Ersatzwert bei §2), hat Realteil §3."
+
+#: Game/Levels/Riemann/L02_GRH.lean:8
+msgid "Now prove the generalized Riemann hypothesis."
+msgstr "Beweise nun die verallgemeinerte Riemannsche Vermutung."
+
+#: Game.lean:34
+msgid "Prove the Riemann Hypothesis"
+msgstr "Beweise die Riemannsche Vermutung"
+
+#: Game/Levels/Riemann.lean:5
+msgid "Riemann"
+msgstr "Riemann"
+
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:52
+msgid "So GRH implies RH, and only the second level is missing…"
+msgstr "GRH impliziert also RH, und es fehlt nur noch der zweite Level…"
+
+#. §0: `1/2`
+#. §1: `L`
+#: Game.lean:4
+msgid "The **Riemann hypothesis** says that all non-trivial zeros of the Riemann zeta function\n"
+"have real part §0. The **generalized Riemann hypothesis** says the same for all Dirichlet\n"
+"§1-functions.\n"
+"\n"
+"In this game you first show that GRH implies RH, using the definitions and theorems of\n"
+"Mathlib. Then you prove GRH.\n"
+"\n"
+"On 2026-11-20, Levent Alpöge announced a Lean formalization with a proof of both.\n"
+"For a mirror of the announced proof, see\n"
+"[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)."
+msgstr "Die **Riemannsche Vermutung** besagt, dass alle nichttrivialen Nullstellen der Riemannschen Zetafunktion\n"
+"Realteil §0 haben. Die **verallgemeinerte Riemannsche Vermutung** besagt dasselbe für alle Dirichletschen\n"
+"§1-Funktionen.\n"
+"\n"
+"In diesem Spiel zeigst du zuerst, dass GRH die RH impliziert, mit den Definitionen und Sätzen aus\n"
+"Mathlib. Danach beweist du GRH.\n"
+"\n"
+"Am 20.11.2026 hat Levent Alpöge eine Lean-Formalisierung mit einem Beweis von beidem angekündigt.\n"
+"Einen Spiegel des angekündigten Beweises findest du unter\n"
+"[leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)."
+
+#. §0: `L`
+#. §1: `0 < re s < 1`
+#. §2: `re s = 1/2`
+#. §3: `L`
+#. §4: `1`
+#. §5: `RiemannHypothesis`
+#. §6: `-2, -4, …`
+#. §7: `s = 1`
+#. §8: `ζ`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:8
+msgid "The **generalized Riemann hypothesis** (GRH) says that the zeros of every Dirichlet\n"
+"§0-function in the critical strip §1 lie on the line §2.\n"
+"\n"
+"The Riemann zeta function is the §3-function of the trivial character modulo §4, so GRH\n"
+"should imply the Riemann hypothesis (RH). The catch: Mathlib's §5 is not\n"
+"phrased with the critical strip, but excludes the trivial zeros §6 and the pole\n"
+"§7. So you have to show that every other zero of §8 lies in the critical strip."
+msgstr "Die **verallgemeinerte Riemannsche Vermutung** (GRH) besagt, dass die Nullstellen jeder Dirichletschen\n"
+"§0-Funktion im kritischen Streifen §1 auf der Geraden §2 liegen.\n"
+"\n"
+"Die Riemannsche Zetafunktion ist die §3-Funktion des trivialen Charakters modulo §4, also sollte GRH\n"
+"die Riemannsche Vermutung (RH) implizieren. Der Haken: §5 in Mathlib ist nicht\n"
+"mit dem kritischen Streifen formuliert, sondern schließt die trivialen Nullstellen §6 und den Pol\n"
+"§7 aus. Du musst also zeigen, dass jede andere Nullstelle von §8 im kritischen Streifen liegt."
+
+#. §0: `ℂ`
+#: Game/Doc.lean:103
+msgid "The Gamma function on §0."
+msgstr "Die Gammafunktion auf §0."
+
+#. §0: `ζ(s, a)`
+#: Game/Doc.lean:83
+msgid "The Hurwitz zeta function §0."
+msgstr "Die Hurwitzsche Zetafunktion §0."
+
+#: Game.lean:33
+msgid "The Riemann Hypothesis"
+msgstr "Die Riemannsche Vermutung"
+
+#. §0: `L`
+#: Game/Levels/Riemann.lean:8
+msgid "The Riemann hypothesis, and its generalisation to Dirichlet §0-functions."
+msgstr "Die Riemannsche Vermutung und ihre Verallgemeinerung auf Dirichletsche §0-Funktionen."
+
+#. §0: `ζ(s)`
+#. §1: `ℂ`
+#. §2: `s = 1`
+#: Game/Doc.lean:78
+msgid "The Riemann zeta function §0, meromorphically continued to §1.\n"
+"Its value at the pole §2 is a junk value."
+msgstr "Die Riemannsche Zetafunktion §0, meromorph fortgesetzt auf §1.\n"
+"Ihr Wert am Pol §2 ist ein bedeutungsloser Ersatzwert."
+
+#. §0: `L`
+#: Game/Doc.lean:148
+msgid "The functional equation of a primitive §0-function."
+msgstr "Die Funktionalgleichung einer primitiven §0-Funktion."
+
+#: Game/Doc.lean:130
+msgid "The functional equation of the completed zeta function."
+msgstr "Die Funktionalgleichung der vervollständigten Zetafunktion."
+
+#. §0: `ζ`
+#: Game/Doc.lean:112
+msgid "The functional equation of §0."
+msgstr "Die Funktionalgleichung von §0."
+
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:18
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:21
+msgid "The generalized Riemann hypothesis implies the Riemann hypothesis."
+msgstr "Die verallgemeinerte Riemannsche Vermutung impliziert die Riemannsche Vermutung."
+
+#: Game/Levels/Riemann/L02_GRH.lean:12
+#: Game/Levels/Riemann/L02_GRH.lean:15
+msgid "The generalized Riemann hypothesis."
+msgstr "Die verallgemeinerte Riemannsche Vermutung."
+
+#. §0: `L`
+#. §1: `0 < re s < 1`
+#. §2: `1/2`
+#: Game/Doc.lean:96
+msgid "The generalized Riemann hypothesis: every zero of a Dirichlet §0-function in the\n"
+"critical strip §1 has real part §2."
+msgstr "Die verallgemeinerte Riemannsche Vermutung: Jede Nullstelle einer Dirichletschen §0-Funktion im\n"
+"kritischen Streifen §1 hat Realteil §2."
+
+#: Game/Doc.lean:101
+msgid "The imaginary part of a complex number."
+msgstr "Der Imaginärteil einer komplexen Zahl."
+
+#: Game/Doc.lean:99
+msgid "The real part of a complex number."
+msgstr "Der Realteil einer komplexen Zahl."
+
+#. §0: `ζ`
+#. §1: `s = 1`
+#. §2: `1`
+#: Game/Doc.lean:120
+msgid "The residue of §0 at §1 is §2."
+msgstr "Das Residuum von §0 bei §1 ist §2."
+
+#. §0: `1`
+#: Game/Doc.lean:152
+msgid "The root number of a primitive character has absolute value §0."
+msgstr "Die Wurzelzahl eines primitiven Charakters hat Betrag §0."
+
+#. §0: `1`
+#: Game/Doc.lean:150
+msgid "The trivial character mod §0 is primitive."
+msgstr "Der triviale Charakter mod §0 ist primitiv."
+
+#. §0: `ζ(-2(n+1)) = 0`
+#: Game/Doc.lean:110
+msgid "The trivial zeros: §0."
+msgstr "Die trivialen Nullstellen: §0."
+
+#. §0: `L`
+#. §1: `re s ≤ 0`
+#: Game/Doc.lean:141
+msgid "The zeros of a primitive §0-function in §1 are those of its Gamma factor.\n"
+"[[mathlib_doc]]"
+msgstr "Die Nullstellen einer primitiven §0-Funktion in §1 sind die ihres Gammafaktors.\n"
+"[[mathlib_doc]]"
+
+#. §0: `L`
+#. §1: `1`
+#. §2: `ζ`
+#: Game/Doc.lean:133
+msgid "The §0-function of the (trivial) character mod §1 is §2."
+msgstr "Die §0-Funktion des (trivialen) Charakters mod §1 ist §2."
+
+#. §0: `L`
+#. §1: `1`
+#. §2: `ζ`
+#. §3: `LFunction_modOne_eq`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:47
+msgid "The §0-function of the character mod §1 is §2: §3."
+msgstr "Die §0-Funktion des Charakters mod §1 ist §2: §3."
+
+#. §0: `L`
+#. §1: `ζ`
+#: Game/Doc.lean:146
+msgid "The §0-function of the trivial character is §1 times Euler factors."
+msgstr "Die §0-Funktion des trivialen Charakters ist §1 mal Euler-Faktoren."
+
+#. §0: `L`
+#. §1: `L(χ, s)`
+#. §2: `ℂ`
+#: Game/Doc.lean:91
+msgid "The §0-function §1 of a Dirichlet character, continued to §2."
+msgstr "Die §0-Funktion §1 eines Dirichlet-Charakters, fortgesetzt auf §2."
+
+#: Game/Doc.lean:171
+msgid "Two complex numbers are equal iff their real and imaginary parts are."
+msgstr "Zwei komplexe Zahlen sind genau dann gleich, wenn ihre Real- und Imaginärteile gleich sind."
+
+#: Game/Doc.lean:93
+msgid "Whether a Dirichlet character is primitive, i.e. not induced from a smaller modulus.\n"
+"[[mathlib_doc]]"
+msgstr "Ob ein Dirichlet-Charakter primitiv ist, d.h. nicht von einem kleineren Modul induziert.\n"
+"[[mathlib_doc]]"
+
+#. §0: `re «{s}» < 1`
+#. §1: `ζ`
+#. §2: `1 ≤ re s`
+#. §3: `by_contra hge`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:40
+msgid "Why is §0? Because §1 has no zeros with §2. Again by\n"
+"contradiction: §3."
+msgstr "Warum gilt §0? Weil §1 keine Nullstellen mit §2 hat. Wieder per\n"
+"Widerspruch: §3."
+
+#. §0: `0 < re «{s}»`
+#. §1: `«{s}»`
+#. §2: `«{htriv}»`
+#. §3: `by_contra hneg`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:31
+msgid "Why is §0? Otherwise §1 would be a trivial zero, which §2 rules\n"
+"out. Start with §3."
+msgstr "Warum gilt §0? Sonst wäre §1 eine triviale Nullstelle, was §2\n"
+"ausschließt. Beginne mit §3."
+
+#: Game.lean:18
+msgid "You have proven the generalized Riemann hypothesis. Well done!"
+msgstr "Du hast die verallgemeinerte Riemannsche Vermutung bewiesen. Gut gemacht!"
+
+#. §0: `exact «{htriv}» ((riemannZeta_eq_zero_iff_of_re_nonpos «{hneg}»).mp «{hs}»)`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:38
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:43
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:45
+msgid "§0"
+msgstr ""
+
+#. §0: `have h : P := proof`
+#: Game/Doc.lean:43
+msgid "§0 adds a new hypothesis."
+msgstr "§0 fügt eine neue Annahme hinzu."
+
+#. §0: `specialize h x`
+#. §1: `h`
+#. §2: `x`
+#: Game/Doc.lean:45
+msgid "§0 applies the hypothesis §1 to §2."
+msgstr "§0 wendet die Annahme §1 auf §2 an."
+
+#. §0: `exfalso`
+#. §1: `False`
+#: Game/Doc.lean:33
+msgid "§0 changes the goal to §1."
+msgstr "§0 ändert das Beweisziel zu §1."
+
+#. §0: `field_simp`
+#: Game/Doc.lean:61
+msgid "§0 clears denominators."
+msgstr "§0 beseitigt Nenner."
+
+#. §0: `exact h`
+#. §1: `h`
+#: Game/Doc.lean:14
+msgid "§0 closes the goal with §1."
+msgstr "§0 schließt das Beweisziel mit §1."
+
+#. §0: `ζ`
+#. §1: `s ↦ 1 - s`
+#: Game/Doc.lean:81
+msgid "§0 completed by its Gamma factor, symmetric under §1."
+msgstr "§0, vervollständigt um seinen Gammafaktor, symmetrisch unter §1."
+
+#. §0: `rcases h with ⟨x, hx⟩ | h'`
+#. §1: `h`
+#: Game/Doc.lean:41
+msgid "§0 destructs §1 with a pattern."
+msgstr "§0 zerlegt §1 mit einem Muster."
+
+#. §0: `obtain ⟨x, hx⟩ := h`
+#. §1: `h`
+#: Game/Doc.lean:39
+msgid "§0 destructs §1."
+msgstr "§0 zerlegt §1."
+
+#. §0: `L(χ, 1) ≠ 0`
+#. §1: `χ`
+#: Game/Doc.lean:139
+msgid "§0 for non-trivial §1: the heart of Dirichlet's theorem."
+msgstr "§0 für nichttriviales §1: das Herzstück des Dirichletschen Primzahlsatzes."
+
+#. §0: `re (x : ℂ) = x`
+#. §1: `x`
+#: Game/Doc.lean:167
+msgid "§0 for real §1."
+msgstr "§0 für reelles §1."
+
+#. §0: `L(χ, s) ≠ 0`
+#. §1: `1 ≤ re s`
+#. §2: `1`
+#: Game/Doc.lean:137
+msgid "§0 for §1, except for the trivial character at §2."
+msgstr "§0 für §1, außer für den trivialen Charakter bei §2."
+
+#. §0: `ζ(s) ≠ 0`
+#. §1: `1 ≤ re s`
+#: Game/Doc.lean:114
+#: Game/Doc.lean:116
+#: Game/Doc.lean:124
+msgid "§0 for §1."
+msgstr "§0 für §1."
+
+#. §0: `intro x`
+#. §1: `∀`
+#. §2: `→`
+#: Game/Doc.lean:8
+msgid "§0 introduces a variable or hypothesis from a §1 or §2 goal."
+msgstr "§0 führt eine Variable oder Annahme aus einem §1- oder §2-Beweisziel ein."
+
+#. §0: `rintro ⟨x, hx⟩`
+#: Game/Doc.lean:10
+msgid "§0 introduces and destructs at once."
+msgstr "§0 führt ein und zerlegt gleichzeitig."
+
+#. §0: `ζ`
+#. §1: `1`
+#: Game/Doc.lean:122
+msgid "§0 is differentiable away from §1."
+msgstr "§0 ist außerhalb von §1 differenzierbar."
+
+#. §0: `L(χ, s)`
+#. §1: `1 < re s`
+#: Game/Doc.lean:135
+msgid "§0 is its Dirichlet series for §1."
+msgstr "§0 ist seine Dirichlet-Reihe für §1."
+
+#. §0: `nlinarith`
+#. §1: `linarith`
+#: Game/Doc.lean:53
+msgid "§0 is §1 with some products of hypotheses."
+msgstr "§0 ist §1 mit einigen Produkten von Annahmen."
+
+#. §0: `refine ⟨?_, ?_⟩`
+#. §1: `exact`
+#. §2: `?_`
+#: Game/Doc.lean:16
+msgid "§0 like §1, with holes §2 left as new goals."
+msgstr "§0 wie §1, mit Lücken §2 als neuen Beweiszielen."
+
+#. §0: `norm_num`
+#. §1: `(1 : ℝ) / 2 < 1`
+#: Game/Doc.lean:57
+msgid "§0 normalises numerals, e.g. proves §1."
+msgstr "§0 normalisiert Zahlen, beweist z.B. §1."
+
+#. §0: `calc`
+#: Game/Doc.lean:47
+msgid "§0 proves a chain of (in)equalities step by step."
+msgstr "§0 beweist eine Kette von (Un-)Gleichungen Schritt für Schritt."
+
+#. §0: `ext`
+#: Game/Doc.lean:49
+msgid "§0 proves an equality of functions pointwise."
+msgstr "§0 beweist eine Gleichheit von Funktionen punktweise."
+
+#. §0: `decide`
+#: Game/Doc.lean:67
+msgid "§0 proves decidable propositions by computation."
+msgstr "§0 beweist entscheidbare Aussagen durch Berechnung."
+
+#. §0: `ring`
+#: Game/Doc.lean:59
+msgid "§0 proves equalities in commutative rings."
+msgstr "§0 beweist Gleichungen in kommutativen Ringen."
+
+#. §0: `grind`
+#: Game/Doc.lean:73
+msgid "§0 proves goals by congruence closure, case splits and arithmetic."
+msgstr "§0 beweist Beweisziele durch Kongruenzabschluss, Fallunterscheidungen und Arithmetik."
+
+#. §0: `positivity`
+#. §1: `0 < e`
+#. §2: `0 ≤ e`
+#: Game/Doc.lean:55
+msgid "§0 proves goals of the form §1 and §2."
+msgstr "§0 beweist Beweisziele der Form §1 und §2."
+
+#. §0: `gcongr`
+#: Game/Doc.lean:63
+msgid "§0 proves inequalities by monotonicity."
+msgstr "§0 beweist Ungleichungen durch Monotonie."
+
+#. §0: `linarith`
+#: Game/Doc.lean:51
+msgid "§0 proves linear (in)equalities over ordered fields."
+msgstr "§0 beweist lineare (Un-)Gleichungen über geordneten Körpern."
+
+#. §0: `omega`
+#. §1: `ℕ`
+#. §2: `ℤ`
+#: Game/Doc.lean:65
+msgid "§0 proves linear arithmetic over §1 and §2."
+msgstr "§0 beweist lineare Arithmetik über §1 und §2."
+
+#. §0: `tauto`
+#: Game/Doc.lean:69
+msgid "§0 proves propositional tautologies."
+msgstr "§0 beweist aussagenlogische Tautologien."
+
+#. §0: `by_contra h`
+#. §1: `h`
+#: Game/Doc.lean:26
+msgid "§0 proves the goal by contradiction, with its negation as §1."
+msgstr "§0 beweist das Beweisziel per Widerspruch, mit seiner Negation als §1."
+
+#. §0: `use x`
+#. §1: `∃`
+#: Game/Doc.lean:37
+msgid "§0 provides the witness of an §1 goal."
+msgstr "§0 liefert den Zeugen für ein §1-Beweisziel."
+
+#. §0: `push Not`
+#. §1: `¬ a < b`
+#. §2: `b ≤ a`
+#. §3: `push Not at h`
+#. §4: `h`
+#: Game/Doc.lean:28
+msgid "§0 pushes negations inwards, e.g. §1 becomes §2.\n"
+"§3 does it in §4."
+msgstr "§0 schiebt Negationen nach innen, z.B. wird §1 zu §2.\n"
+"§3 macht das in §4."
+
+#. §0: `apply h`
+#. §1: `h`
+#: Game/Doc.lean:12
+msgid "§0 reduces the goal to the hypotheses of §1."
+msgstr "§0 reduziert das Beweisziel auf die Voraussetzungen von §1."
+
+#. §0: `contrapose! h`
+#. §1: `h`
+#: Game/Doc.lean:31
+msgid "§0 replaces goal and §1 by their negations, swapped."
+msgstr "§0 ersetzt Beweisziel und §1 durch ihre Negationen, vertauscht."
+
+#. §0: `rw [h]`
+#. §1: `h`
+#: Game/Doc.lean:18
+msgid "§0 rewrites with an equation or equivalence §1."
+msgstr "§0 schreibt mit einer Gleichung oder Äquivalenz §1 um."
+
+#. §0: `aesop`
+#: Game/Doc.lean:71
+msgid "§0 searches for a proof with many rules."
+msgstr "§0 sucht mit vielen Regeln nach einem Beweis."
+
+#. §0: `simp_all`
+#: Game/Doc.lean:22
+msgid "§0 simplifies all hypotheses and the goal with each other."
+msgstr "§0 vereinfacht alle Annahmen und das Beweisziel miteinander."
+
+#. §0: `simp`
+#. §1: `simp [h]`
+#. §2: `h`
+#: Game/Doc.lean:20
+msgid "§0 simplifies the goal with the simp set; §1 uses §2 too."
+msgstr "§0 vereinfacht das Beweisziel mit den simp-Lemmas; §1 verwendet zusätzlich §2."
+
+#. §0: `constructor`
+#. §1: `∧`
+#. §2: `↔`
+#: Game/Doc.lean:35
+msgid "§0 splits §1 and §2 goals."
+msgstr "§0 teilt §1- und §2-Beweisziele auf."
+
+#. §0: `rw [not_lt] at «{hneg}»`
+#. §1: `re «{s}» ≤ 0`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:34
+msgid "§0 turns it into §1."
+msgstr "§0 macht daraus §1."
+
+#. §0: `unfold f`
+#. §1: `f`
+#: Game/Doc.lean:24
+msgid "§0 unfolds the definition §1."
+msgstr "§0 schreibt die Definition §1 aus."
+
+#. §0: `rw [DirichletCharacter.LFunction_modOne_eq]`
+#. §1: `exact «{hs}»`
+#: Game/Levels/Riemann/L01_GRHimpliesRH.lean:48
+msgid "§0, then §1."
+msgstr "§0, dann §1."
+
+#. §0: `ζ(0) = -1/2`
+#: Game/Doc.lean:108
+#: Game/Doc.lean:126
+#: Game/Doc.lean:128
+#: Game/Doc.lean:155
+#: Game/Doc.lean:157
+#: Game/Doc.lean:159
+#: Game/Doc.lean:161
+#: Game/Doc.lean:163
+#: Game/Doc.lean:165
+#: Game/Doc.lean:169
+#: Game/Doc.lean:173
+#: Game/Doc.lean:176
+#: Game/Doc.lean:178
+#: Game/Doc.lean:180
+#: Game/Doc.lean:182
+#: Game/Doc.lean:184
+#: Game/Doc.lean:186
+#: Game/Doc.lean:188
+#: Game/Doc.lean:190
+#: Game/Doc.lean:192
+msgid "§0."
+msgstr ""
