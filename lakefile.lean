@@ -5,25 +5,25 @@ open Lake DSL
 def leanVersion : String := s!"v{Lean.versionString}"
 
 /--
-Use the GameServer from the `lean4game` repository lying next to the game on your local computer.
+Use the GameServer from a `leangame` folder lying next to the game on your local computer.
 Activated with `lake update -R -Kleangame.local --keep-toolchain`.
 -/
 def LocalGameServer : Dependency := {
   name := `GameServer
   scope := "hhu-adam"
-  src? := DependencySrc.path "../lean4game/server/lean"
+  src? := DependencySrc.path "../leangame/server/lean"
   version := .none
   opts := ∅
 }
 
 /--
-While the game lies in `server/games/` of the lean4game repository: the GameServer of that repo.
+For development of the game server itself, the GameServer dependency needs to come from within the repo.
 Activated with `lake update -R -Kleangame.testgame  --keep-toolchain`.
 -/
 def TestGameServer : Dependency := {
   name := `GameServer
   scope := "hhu-adam"
-  src? := DependencySrc.path "../../lean"
+  src? := DependencySrc.path "../server/lean"
   version := .none
   opts := ∅
 }
